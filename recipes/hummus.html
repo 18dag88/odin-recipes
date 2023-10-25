@@ -1,25 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <style>
+         table {
+            margin: 0 auto; /* Center the table horizontally */
+    }
+        .centered-button {
+            text-align: bottom; /* Center the button text horizontally */
+    }
+
+</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="../style.css">
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <h1>Hummus</h1>
-    <img src="../img/lasagna.jpeg" alt="A Lasagna">
+    <script src="../myproject.js"></script>
+
+    <div class="image_slider">
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="../img/hummus/hummus1.jpeg" style="width:100%">
+        </div>
+  
+        <div class="mySlides fade">
+            <img src="../img/hummus/hummus2.jpeg" style="width:100%">
+        </div>
+  
+        <div class="mySlides fade">
+          <img src="../img/hummus/hummus3.jpeg" style="width:100%">
+        </div>
+      </div>
+      <br>
+  
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+        <span class="dot" onclick="currentSlide(4)"></span> 
+        <span class="dot" onclick="currentSlide(5)"></span> 
+      </div>
+    </div>
     <p>Eat the delicious Hummus</p>
     <p>Eat more</p>
-    <ul>
-        <li>garlic</li>
-        <li>seasame seeds</li>
-        <li>salt</li>
-    </ul>
+    <table>
+        <tr>
+          <th>Amount</th>
+          <th>Ingredients</th>
+        </tr>
+        <tr>
+          <td>1 can 
+          </td>
+          <td>chickpeas
+          </td>
+        </tr>
+        
+         <tr>
+          <td>60 mls
+          </td>
+          <td>water
+          </td>
+        </tr>
+        
+         <tr>
+          <td>1 clove
+          </td>
+          <td>garlic
+          </td>
+        </tr>
+        
+         <tr>
+          <td>1 juiced 1/2 zested 
+          </td>
+          <td>lemon
+          </td>
+        </tr>
+        
+        <tr>
+          <td>3 tbsp
+          </td>
+          <td>tahini
+          </td>
+        </tr>
+        
+         <tr>
+          <td>1 tbsp
+          </td>
+          <td>olive oil
+          </td>
+        </tr>
+              
     <ol>
         <li>prepare ingedients</li>
         <li>cook</li>
         <li>eat</li>
     </ol>
-    
+    <div class="centered-button">
+    <button class="button button:hover" onclick="location.href='../index.html'"><i class="fa fa-home"></i></button>
+    </div>  
 </body>
 </html>
